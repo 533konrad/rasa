@@ -6,7 +6,7 @@ Rasa Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to `Semantic Versioning`_ starting with version 1.0.
 
-[Unreleased 1.2.3] - `master`_
+[Unreleased 1.3] - `master`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Added
@@ -36,6 +36,8 @@ Changed
 - bot messages contain the ``timestamp`` of the ``BotUttered`` event, which can be used in channels
 - NLU evaluations now also stores its output in the output directory like the core evaluation
 - show warning in case a default path is used instead of a provided, invalid path
+- compare mode of ``rasa train core`` allows the whole core config comparison,
+  naming style of models trained for comparison is changed (this is a breaking change)
 
 Removed
 -------
