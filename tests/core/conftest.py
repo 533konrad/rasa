@@ -39,6 +39,8 @@ E2E_STORY_FILE_UNKNOWN_ENTITY = "data/test_evaluations/story_unknown_entity.md"
 
 MOODBOT_MODEL_PATH = "examples/moodbot/models/"
 
+RESTAURANTBOT_PATH = "examples/restaurantbot/"
+
 DEFAULT_ENDPOINTS_FILE = "data/test_endpoints/example_endpoints.yml"
 
 TEST_DIALOGUES = [
